@@ -9,7 +9,7 @@ then click Import Project.
 
 
 ### Optional 
-If you need to build from the command line, first you need to install Gradle:
+If you need to build from the project from the command line, first you need to install Gradle:
 
     $ brew install gradle 
   
