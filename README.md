@@ -11,6 +11,6 @@ then click Import Project.
 ### Optional 
 If you need to build from the command line, first you need to install Gradle:
 
-  $ brew install gradle 
+    $ brew install gradle 
   
 Then in the root directory of the project run `gradle build`, the APK will be available in this directory `helpful-android/app/build/apk`
