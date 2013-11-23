@@ -14,7 +14,8 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="io.helpful.android.ui.LoginActivity"
+            android:name="io.helpful.android.ui.HomeActivity"
+            android:windowSoftInputMode="adjustResize"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="io.helpful.android.ui.HomeActivity"
+            android:name="io.helpful.android.ui.LoginActivity"
+            android:windowSoftInputMode="adjustResize"
             android:label="@string/title_activity_login" >
         </activity>
     </application>

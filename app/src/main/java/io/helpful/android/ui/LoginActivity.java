@@ -10,6 +10,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.os.Build;
+import android.widget.EditText;
 
 import io.helpful.android.R;
 
@@ -45,6 +46,13 @@ public class LoginActivity extends Activity {
     public static class PlaceholderFragment extends Fragment {
 
         public PlaceholderFragment() {
+        }
+
+        @Override
+        public void onAttach(Activity activity) {
+            super.onAttach(activity);
+            EditText password = (EditText) activity.findViewById(R.id.et_password);
+
         }
 
         @Override
